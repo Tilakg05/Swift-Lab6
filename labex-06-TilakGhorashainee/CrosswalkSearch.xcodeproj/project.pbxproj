@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC79190D2800FF7300BB0792 /* CrosswalkSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79190C2800FF7300BB0792 /* CrosswalkSearchApp.swift */; };
+		EC79190F2800FF7300BB0792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79190E2800FF7300BB0792 /* ContentView.swift */; };
+		EC7919112800FF7500BB0792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7919102800FF7500BB0792 /* Assets.xcassets */; };
+		EC7919142800FF7500BB0792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7919132800FF7500BB0792 /* Preview Assets.xcassets */; };
+		EC79191E2800FF7500BB0792 /* CrosswalkSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79191D2800FF7500BB0792 /* CrosswalkSearchTests.swift */; };
+		EC7919282800FF7500BB0792 /* CrosswalkSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7919272800FF7500BB0792 /* CrosswalkSearchUITests.swift */; };
+		EC79192A2800FF7500BB0792 /* CrosswalkSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7919292800FF7500BB0792 /* CrosswalkSearchUITestsLaunchTests.swift */; };
+		EC7919372800FF8400BB0792 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC7919362800FF8400BB0792 /* .gitignore */; };
+		EC7919392800FFC900BB0792 /* Crosswalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7919382800FFC900BB0792 /* Crosswalk.swift */; };
+		EC79193B2804E40E00BB0792 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79193A2804E40E00BB0792 /* Modifiers.swift */; };
+		EC79193D28051D5700BB0792 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79193C28051D5700BB0792 /* Persistence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC79191A2800FF7500BB0792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7919012800FF7200BB0792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7919082800FF7300BB0792;
+			remoteInfo = CrosswalkSearch;
+		};
+		EC7919242800FF7500BB0792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7919012800FF7200BB0792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7919082800FF7300BB0792;
+			remoteInfo = CrosswalkSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7919092800FF7300BB0792 /* CrosswalkSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrosswalkSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79190C2800FF7300BB0792 /* CrosswalkSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswalkSearchApp.swift; sourceTree = "<group>"; };
+		EC79190E2800FF7300BB0792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC7919102800FF7500BB0792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7919132800FF7500BB0792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC7919192800FF7500BB0792 /* CrosswalkSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswalkSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79191D2800FF7500BB0792 /* CrosswalkSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswalkSearchTests.swift; sourceTree = "<group>"; };
+		EC7919232800FF7500BB0792 /* CrosswalkSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswalkSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7919272800FF7500BB0792 /* CrosswalkSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswalkSearchUITests.swift; sourceTree = "<group>"; };
+		EC7919292800FF7500BB0792 /* CrosswalkSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswalkSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC7919362800FF8400BB0792 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EC7919382800FFC900BB0792 /* Crosswalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crosswalk.swift; sourceTree = "<group>"; };
+		EC79193A2804E40E00BB0792 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		EC79193C28051D5700BB0792 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7919062800FF7300BB0792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7919162800FF7500BB0792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7919202800FF7500BB0792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7919002800FF7200BB0792 = {
+			isa = PBXGroup;
+			children = (
+				EC7919362800FF8400BB0792 /* .gitignore */,
+				EC79190B2800FF7300BB0792 /* CrosswalkSearch */,
+				EC79191C2800FF7500BB0792 /* CrosswalkSearchTests */,
+				EC7919262800FF7500BB0792 /* CrosswalkSearchUITests */,
+				EC79190A2800FF7300BB0792 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC79190A2800FF7300BB0792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7919092800FF7300BB0792 /* CrosswalkSearch.app */,
+				EC7919192800FF7500BB0792 /* CrosswalkSearchTests.xctest */,
+				EC7919232800FF7500BB0792 /* CrosswalkSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC79190B2800FF7300BB0792 /* CrosswalkSearch */ = {
+			isa = PBXGroup;
+			children = (
+				EC79190C2800FF7300BB0792 /* CrosswalkSearchApp.swift */,
+				EC79190E2800FF7300BB0792 /* ContentView.swift */,
+				EC7919382800FFC900BB0792 /* Crosswalk.swift */,
+				EC79193A2804E40E00BB0792 /* Modifiers.swift */,
+				EC79193C28051D5700BB0792 /* Persistence.swift */,
+				EC7919102800FF7500BB0792 /* Assets.xcassets */,
+				EC7919122800FF7500BB0792 /* Preview Content */,
+			);
+			path = CrosswalkSearch;
+			sourceTree = "<group>";
+		};
+		EC7919122800FF7500BB0792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC7919132800FF7500BB0792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC79191C2800FF7500BB0792 /* CrosswalkSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC79191D2800FF7500BB0792 /* CrosswalkSearchTests.swift */,
+			);
+			path = CrosswalkSearchTests;
+			sourceTree = "<group>";
+		};
+		EC7919262800FF7500BB0792 /* CrosswalkSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7919272800FF7500BB0792 /* CrosswalkSearchUITests.swift */,
+				EC7919292800FF7500BB0792 /* CrosswalkSearchUITestsLaunchTests.swift */,
+			);
+			path = CrosswalkSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7919082800FF7300BB0792 /* CrosswalkSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79192D2800FF7500BB0792 /* Build configuration list for PBXNativeTarget "CrosswalkSearch" */;
+			buildPhases = (
+				EC7919052800FF7300BB0792 /* Sources */,
+				EC7919062800FF7300BB0792 /* Frameworks */,
+				EC7919072800FF7300BB0792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrosswalkSearch;
+			productName = CrosswalkSearch;
+			productReference = EC7919092800FF7300BB0792 /* CrosswalkSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7919182800FF7500BB0792 /* CrosswalkSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7919302800FF7500BB0792 /* Build configuration list for PBXNativeTarget "CrosswalkSearchTests" */;
+			buildPhases = (
+				EC7919152800FF7500BB0792 /* Sources */,
+				EC7919162800FF7500BB0792 /* Frameworks */,
+				EC7919172800FF7500BB0792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC79191B2800FF7500BB0792 /* PBXTargetDependency */,
+			);
+			name = CrosswalkSearchTests;
+			productName = CrosswalkSearchTests;
+			productReference = EC7919192800FF7500BB0792 /* CrosswalkSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7919222800FF7500BB0792 /* CrosswalkSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7919332800FF7500BB0792 /* Build configuration list for PBXNativeTarget "CrosswalkSearchUITests" */;
+			buildPhases = (
+				EC79191F2800FF7500BB0792 /* Sources */,
+				EC7919202800FF7500BB0792 /* Frameworks */,
+				EC7919212800FF7500BB0792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7919252800FF7500BB0792 /* PBXTargetDependency */,
+			);
+			name = CrosswalkSearchUITests;
+			productName = CrosswalkSearchUITests;
+			productReference = EC7919232800FF7500BB0792 /* CrosswalkSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7919012800FF7200BB0792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EC7919082800FF7300BB0792 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					EC7919182800FF7500BB0792 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = EC7919082800FF7300BB0792;
+					};
+					EC7919222800FF7500BB0792 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = EC7919082800FF7300BB0792;
+					};
+				};
+			};
+			buildConfigurationList = EC7919042800FF7200BB0792 /* Build configuration list for PBXProject "CrosswalkSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7919002800FF7200BB0792;
+			productRefGroup = EC79190A2800FF7300BB0792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7919082800FF7300BB0792 /* CrosswalkSearch */,
+				EC7919182800FF7500BB0792 /* CrosswalkSearchTests */,
+				EC7919222800FF7500BB0792 /* CrosswalkSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7919072800FF7300BB0792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7919142800FF7500BB0792 /* Preview Assets.xcassets in Resources */,
+				EC7919372800FF8400BB0792 /* .gitignore in Resources */,
+				EC7919112800FF7500BB0792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7919172800FF7500BB0792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7919212800FF7500BB0792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7919052800FF7300BB0792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79193B2804E40E00BB0792 /* Modifiers.swift in Sources */,
+				EC79190F2800FF7300BB0792 /* ContentView.swift in Sources */,
+				EC79190D2800FF7300BB0792 /* CrosswalkSearchApp.swift in Sources */,
+				EC7919392800FFC900BB0792 /* Crosswalk.swift in Sources */,
+				EC79193D28051D5700BB0792 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7919152800FF7500BB0792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79191E2800FF7500BB0792 /* CrosswalkSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79191F2800FF7500BB0792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79192A2800FF7500BB0792 /* CrosswalkSearchUITestsLaunchTests.swift in Sources */,
+				EC7919282800FF7500BB0792 /* CrosswalkSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC79191B2800FF7500BB0792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7919082800FF7300BB0792 /* CrosswalkSearch */;
+			targetProxy = EC79191A2800FF7500BB0792 /* PBXContainerItemProxy */;
+		};
+		EC7919252800FF7500BB0792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7919082800FF7300BB0792 /* CrosswalkSearch */;
+			targetProxy = EC7919242800FF7500BB0792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC79192B2800FF7500BB0792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC79192C2800FF7500BB0792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC79192E2800FF7500BB0792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrosswalkSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = B2237HP63K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrosswalkSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC79192F2800FF7500BB0792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrosswalkSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = B2237HP63K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrosswalkSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC7919312800FF7500BB0792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2237HP63K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrosswalkSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswalkSearch.app/CrosswalkSearch";
+			};
+			name = Debug;
+		};
+		EC7919322800FF7500BB0792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2237HP63K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrosswalkSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswalkSearch.app/CrosswalkSearch";
+			};
+			name = Release;
+		};
+		EC7919342800FF7500BB0792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2237HP63K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrosswalkSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswalkSearch;
+			};
+			name = Debug;
+		};
+		EC7919352800FF7500BB0792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2237HP63K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrosswalkSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswalkSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7919042800FF7200BB0792 /* Build configuration list for PBXProject "CrosswalkSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79192B2800FF7500BB0792 /* Debug */,
+				EC79192C2800FF7500BB0792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79192D2800FF7500BB0792 /* Build configuration list for PBXNativeTarget "CrosswalkSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79192E2800FF7500BB0792 /* Debug */,
+				EC79192F2800FF7500BB0792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7919302800FF7500BB0792 /* Build configuration list for PBXNativeTarget "CrosswalkSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7919312800FF7500BB0792 /* Debug */,
+				EC7919322800FF7500BB0792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7919332800FF7500BB0792 /* Build configuration list for PBXNativeTarget "CrosswalkSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7919342800FF7500BB0792 /* Debug */,
+				EC7919352800FF7500BB0792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7919012800FF7200BB0792 /* Project object */;
+}
